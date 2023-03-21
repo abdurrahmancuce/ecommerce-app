@@ -30,7 +30,7 @@ export default function Products() {
     <p>An error has occured: {error.message}</p>
   ) : (
     <>
-      <Grid templateColumns="repeat(3,1fr)" gap={4}>
+      <Grid templateColumns="repeat(5,1fr)" gap={100}>
         {
           data.pages.map((group, i) => (
             <React.Fragment key={i}>
